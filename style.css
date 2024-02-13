@@ -106,3 +106,78 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+
+@media (max-width: 408px){
+    .container{
+        width: 100%;
+        min-height: 100vh;
+        /* background: linear-gradient(135deg,#8fd4d1,#d7d2d6); */
+        /* padding: 10px; */
+    }
+
+    .to-do-list{
+        width: 100%;
+        min-width: 100px;
+        /* margin-right: 2rem; */
+        /* padding-right: 2rem; */
+    }
+}
+
+@media (max-width: 383px){
+
+    .container{
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .to-do-list{
+        width: 90%;
+    }
+
+    input{
+        width: 90%;
+    }
+
+    button{
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 378px){
+    .container{
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        padding: 1.1rem;
+    }
+
+    button{
+        position: absolute;
+        top: 17.4rem;
+        right: 8.4rem;
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 365px){
+    .container{
+        width: 100%;
+    }
+
+    ul li {
+        position: relative;
+        top: 4rem;
+    }
+
+    button{
+        padding-left: 2rem;
+    }
+}
